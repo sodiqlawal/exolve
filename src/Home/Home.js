@@ -15,15 +15,14 @@ const Home = () => {
     useEffect(()=> {
 
         TweenMax.from(".left-view",2, {
-            delay:.5,
-            x:-20,
+            x:"-100%",
             opacity:0,
             ease:Expo.easeInOut
           })
 
         TweenMax.from(".right-view",2, {
             delay:1,
-            x:-20,
+            x:"-20%",
             opacity:0,
             ease:Expo.easeInOut
           })
@@ -89,12 +88,11 @@ const Home = () => {
             </>
 
             }
+            <p className="cartoon-background"></p>
 
             </div>
 
             {/* end right view */}
-
-            <div className="cartoon-background"></div>
 
             </div>
 

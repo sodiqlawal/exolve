@@ -13,7 +13,7 @@ body {
 .cont {
   position: absolute;
   /* height: 100%; */
-  top: 25%;
+  top: 10%;
   padding: 3rem;
 }
 
@@ -177,7 +177,9 @@ input[type="submit"]:hover {
 }
   .staff-button-left {
       /* position: absolute; */
-      padding: .65rem 5rem .7rem 1rem;
+      margin-left: 1rem;
+      /* margin-top: .3rem; */
+      padding: .6rem 3rem .75rem 1rem;
       background: #D8D8D8;
       color: #787878;  
       /* width: 150px; */
@@ -198,8 +200,8 @@ input[type="submit"]:hover {
     background: #FF6600;
     color: #fff;
     right: 26%;
-    padding: .6rem 1rem .6rem 5rem;
-    margin-top: -.65rem;
+    padding: .8rem 1rem .6rem 4rem;
+    margin-top: -.7rem;
     margin-right: 1.5rem;
     /* width: 150px; */
     border: 1px solid #D8D8D8;
@@ -207,3 +209,10 @@ input[type="submit"]:hover {
     cursor: pointer;
     z-index: 1;
   }
+
+   .cartoon-background {
+        background: url("./images/cartoon.png");
+       position: absolute;
+        top: 40%;
+        width: 100%;
+     }

@@ -53,6 +53,8 @@ const Staff = ({handleIndex}) => {
 
           <a href='register' className="switcher" onClick={()=>handleIndex(1)}>Forgot password?</a>
         </form>
+
+        <div className="cartoon-background"></div>
       </div>
     )}
 
