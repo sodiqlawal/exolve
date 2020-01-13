@@ -1,0 +1,205 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #435160;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cont {
+  position: absolute;
+  /* height: 100%; */
+  top: 25%;
+  padding: 3rem;
+}
+
+.logo {
+      /* exolve 1 */
+      height: 40px;
+      margin-left: 5.5rem;
+}
+
+.field-container {
+  position: relative;
+}
+
+.field-container input {
+  text-indent: 25px;
+}
+
+.field-container .search {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  font-size: 15px;
+  color: #FF6600;
+}
+
+
+.button {
+  margin: 2rem;
+  padding-left: 1rem;
+}
+  .button-left {
+      /* position: absolute; */
+      padding: .6rem .6rem .6rem 3rem;
+      background: #D8D8D8;
+      color: #787878;
+            /* width: 100px; */
+      border: 1px solid #D8D8D8;
+      border-radius: 30px;
+      /* color: #fff; */
+      z-index: 10;
+      cursor: pointer;
+  }
+
+  .button-left:focus {
+    outline: none;
+  }
+
+  .button-left::before{
+    content: "Admin login";
+    position: relative;
+    background: #FF6600;
+    color: #fff;
+    right: 26%;
+    padding: .6rem 2.5rem .6rem .4rem;
+    margin-top: -.6rem;
+    /* width: 100px; */
+    border: 1px solid #FF6600;
+    border-radius: 30px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+
+
+a {
+  color: #435160;
+  text-decoration: none;
+}
+
+
+input[type="text"], input[type="password"] {
+  width: 350px;
+  padding: .5rem 0rem 0.5rem 1rem;
+  background: transparent;
+  border: 1px solid silver;
+  margin-bottom: 1rem;
+  outline: none;
+  color: #6D7781;
+  font-size: 16px;
+  border-radius: 2px;
+}
+
+input[type="submit"] {
+  background: #FF6600;
+  border: 0;
+  width: 350px;
+  height: 40px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+input[type="submit"]:hover {
+  background: silver;
+  animation-name: shake;
+}
+
+.switcher {
+  margin-top: 10px;
+  display: block;
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+}
+.switcher:hover {
+  color: #6D7781;
+}
+
+::-webkit-input-placeholder {
+  color: #435160;
+  font-size: 12px;
+}
+
+.submit-btn {
+  margin-top: 2em;
+}
+
+.animated {
+  animation-fill-mode: both;
+  animation-duration: 1s;
+}
+
+.err-msg {
+  font-size: 10px;
+  color: coral;
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+}
+
+@media(max-width:768px) {
+  .cont {
+    position: absolute;
+    /* left: 10%; */
+    top: 1%;
+  }
+}
+
+
+
+/* start staff */
+
+.staff-button {
+  width: 300px;
+  margin: 2rem 0;
+  padding-left: 1rem;
+}
+  .staff-button-left {
+      /* position: absolute; */
+      padding: .5rem .3rem;
+      background: #D8D8D8;
+      color: #787878;  
+      width: 150px;
+      border: 1px solid #FF6600;
+      border-radius: 30px;
+      z-index: 10;
+      cursor: pointer;
+      transition: all 1s ease;
+  }
+
+  .staff-button-left:focus {
+    outline: none;
+  }
+
+  .staff-button-left::before{
+    content: "Staff login";
+    position: absolute;
+    background: #FF6600;
+    color: #fff;
+    right: 26%;
+    padding: .5rem .3rem;
+    margin-top: -.6rem;
+    width: 150px;
+    border: 1px solid #D8D8D8;
+    border-radius: 30px;
+    color: #000;
+    cursor: pointer;
+    z-index: 1;
+  }

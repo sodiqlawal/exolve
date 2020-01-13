@@ -1,0 +1,117 @@
+.home {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .left-view {
+  margin-top: 0rem;
+  padding: 0;
+  background: #FF6600;
+  color: #fff;
+  width: 50%;
+  height: 100vh;
+}
+
+.home .left-view .left-view-content {
+  position: relative;
+  top: 40%;
+  text-align: center;
+}
+
+.home .left-view .left-view-content h1 {
+  font-weight: lighter;
+  letter-spacing: .3rem;
+}
+
+.home .left-view .left-view-content p {
+  font-size: .8rem;
+}
+
+.home .left-view .left-view-footer {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: .5rem;
+}
+
+.home .left-view .left-view-footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  padding-left: 6rem;
+}
+
+.home .left-view .left-view-footer ul li {
+  margin-left: 3rem;
+  font-size: .8rem;
+}
+
+.home .right-view {
+  width: 50%;
+  height: 100vh;
+  position: relative;
+  top: 40%;
+}
+
+.home .right-view .right-view-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home .right-view .cartoon-background {
+  background: url("https://www.figma.com/file/uZbOvlrSv82ebk5sE5vCUM/Exolve?node-id=4%3A1068");
+  position: absolute;
+  top: 40%;
+}
+
+@media (max-width: 768px) {
+  .home {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .home .left-view {
+    width: 100%;
+    height: 48vh;
+  }
+  .home .left-view .left-view-footer {
+    background-color: #FF6600 !important;
+    width: 100%;
+  }
+  .home .right-view {
+    width: 100%;
+    height: 50vh;
+  }
+}
+
+@media (max-width: 1000px) {
+  .left-view-footer {
+    bottom: 0;
+  }
+  .left-view-footer ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    padding-left: 0rem !important;
+  }
+  .left-view-footer ul li {
+    margin-left: 1rem !important;
+    font-size: .6rem !important;
+  }
+}
+/*# sourceMappingURL=Home.css.map */

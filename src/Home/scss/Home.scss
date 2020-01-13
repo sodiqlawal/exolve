@@ -1,0 +1,118 @@
+
+
+.home {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+    .left-view {
+        margin-top: 0rem;
+        padding: 0;
+        background: #FF6600;
+        color: #fff;
+        width: 50%;
+        height: 100vh;
+
+        .left-view-content {
+            position: relative;
+            top: 40%;
+            text-align: center;
+
+            h1 {
+                font-weight: lighter;
+                letter-spacing: .3rem;
+            }
+
+            p {
+                font-size: .8rem;
+            }
+        }
+
+        .left-view-footer {
+            position: absolute;
+            bottom: 0;
+            margin-bottom: .5rem;
+
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                list-style: none;
+                padding-left: 6rem;
+
+                li {
+                    margin-left: 3rem;
+                    font-size: .8rem;
+                }
+            }
+        }
+    }
+
+
+
+
+    // start right view
+
+    .right-view {
+        width: 50%;
+        height: 100vh;
+        position: relative;
+        top: 40%;
+
+        .right-view-login {
+            display: flex;
+            justify-content: center;
+        }
+
+        .cartoon-background {
+            background: url("https://www.figma.com/file/uZbOvlrSv82ebk5sE5vCUM/Exolve?node-id=4%3A1068");
+            position: absolute;
+            top: 40%;
+        }
+    }
+}
+
+
+
+@media(max-width:768px){
+    
+    .home {
+        display: flex;
+        flex-direction: column;
+
+        .left-view{
+            width: 100%;
+            height: 48vh;
+
+            .left-view-footer {
+               background-color: #FF6600 !important;
+               width: 100%;
+            }
+        }
+
+        .right-view {
+            width: 100%;
+            height: 50vh;
+            // display: flex;
+            // justify-items: center;
+        }
+    }
+}
+
+@media(max-width:1000px) {
+  
+    .left-view-footer {
+        bottom: 0;
+
+        ul {
+            display: flex;
+            list-style: none;
+            padding-left: 0rem !important;
+
+            li {
+                margin-left: 1rem !important;
+                font-size: .6rem !important;
+            }
+        }
+    }
+}
