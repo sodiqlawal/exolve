@@ -23,6 +23,10 @@ body {
       margin-left: 5.5rem;
 }
 
+.logo.register {
+  margin-bottom: 1rem;
+}
+
 .field-container {
   position: relative;
 }
@@ -167,17 +171,17 @@ input[type="submit"]:hover {
 /* start staff */
 
 .staff-button {
-  width: 300px;
+  /* width: 300px; */
   margin: 2rem 0;
   padding-left: 1rem;
 }
   .staff-button-left {
       /* position: absolute; */
-      padding: .5rem .3rem;
+      padding: .65rem 5rem .7rem 1rem;
       background: #D8D8D8;
       color: #787878;  
-      width: 150px;
-      border: 1px solid #FF6600;
+      /* width: 150px; */
+      border: 1px solid #D8D8D8;
       border-radius: 30px;
       z-index: 10;
       cursor: pointer;
@@ -194,12 +198,12 @@ input[type="submit"]:hover {
     background: #FF6600;
     color: #fff;
     right: 26%;
-    padding: .5rem .3rem;
-    margin-top: -.6rem;
-    width: 150px;
+    padding: .6rem 1rem .6rem 5rem;
+    margin-top: -.65rem;
+    margin-right: 1.5rem;
+    /* width: 150px; */
     border: 1px solid #D8D8D8;
     border-radius: 30px;
-    color: #000;
     cursor: pointer;
     z-index: 1;
   }

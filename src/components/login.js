@@ -1,5 +1,4 @@
 import React , { useContext,useEffect } from 'react';
-import { TweenMax, Expo } from 'gsap'
 import logo from "./images/exolve.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -9,21 +8,9 @@ import './auth.css'
 import { Formik } from 'formik'
 import { loginValidationSchema } from '../validationSchema';
 library.add(fas, faLock)
-// import { Link } from 'react-router-dom';
 
 const Login = ({handleIndex}) => {
   const { loginUser } = useContext(authContext)
-
-  useEffect(()=> {
-
-    TweenMax.from(".cont",2, {
-        delay:.5,
-        x:-20,
-        opacity:0,
-        ease:Expo.easeInOut
-      })
-
-},[])
 
   return (
     <Formik 
