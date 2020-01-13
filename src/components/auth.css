@@ -10,7 +10,6 @@ body {
 
 .cont {
   position: absolute;
-  /* height: 100%; */
   top: 10%;
   padding: 3rem;
 }
@@ -48,14 +47,11 @@ body {
 }
 
 .button-left {
-  /* position: absolute; */
   padding: .6rem .6rem .6rem 3rem;
   background: #D8D8D8;
   color: #787878;
-  /* width: 100px; */
   border: 1px solid #D8D8D8;
   border-radius: 30px;
-  /* color: #fff; */
   z-index: 10;
   cursor: pointer;
 }
@@ -72,7 +68,6 @@ body {
   right: 26%;
   padding: .6rem 2.5rem .6rem .4rem;
   margin-top: -.6rem;
-  /* width: 100px; */
   border: 1px solid #FF6600;
   border-radius: 30px;
   cursor: pointer;
@@ -174,14 +169,13 @@ input[type="submit"]:hover {
 @media(max-width:768px) {
   .cont {
     position: absolute;
-    /* left: 10%; */
     top: 1%;
   }
 }
 
 
 
-/* start staff */
+/* start staff page */
 
 .staff-button {
   margin: 2rem 0;
@@ -213,7 +207,6 @@ input[type="submit"]:hover {
   padding: .8rem 1rem .6rem 4rem;
   margin-top: -.7rem;
   margin-right: 1.5rem;
-  /* width: 150px; */
   border: 1px solid #D8D8D8;
   border-radius: 30px;
   cursor: pointer;
