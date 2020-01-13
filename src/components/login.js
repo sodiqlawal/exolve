@@ -29,7 +29,6 @@ const Login = ({ handleIndex }) => {
             <button className="button-left" onClick={() => handleIndex(2)}>
               Staff Login
             </button>
-            {/* <button className="button-right">Staff Login</button>  */}
           </div>
           <form onSubmit={formik.handleSubmit}>
             <div className="field-container">
