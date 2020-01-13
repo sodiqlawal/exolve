@@ -1,5 +1,3 @@
-
-
 * {
   margin: 0;
   padding: 0;
@@ -18,9 +16,9 @@ body {
 }
 
 .logo {
-      /* exolve 1 */
-      height: 40px;
-      margin-left: 5.5rem;
+  /* exolve 1 */
+  height: 40px;
+  margin-left: 5.5rem;
 }
 
 .logo.register {
@@ -48,37 +46,38 @@ body {
   margin: 2rem;
   padding-left: 1rem;
 }
-  .button-left {
-      /* position: absolute; */
-      padding: .6rem .6rem .6rem 3rem;
-      background: #D8D8D8;
-      color: #787878;
-            /* width: 100px; */
-      border: 1px solid #D8D8D8;
-      border-radius: 30px;
-      /* color: #fff; */
-      z-index: 10;
-      cursor: pointer;
-  }
 
-  .button-left:focus {
-    outline: none;
-  }
+.button-left {
+  /* position: absolute; */
+  padding: .6rem .6rem .6rem 3rem;
+  background: #D8D8D8;
+  color: #787878;
+  /* width: 100px; */
+  border: 1px solid #D8D8D8;
+  border-radius: 30px;
+  /* color: #fff; */
+  z-index: 10;
+  cursor: pointer;
+}
 
-  .button-left::before{
-    content: "Admin login";
-    position: relative;
-    background: #FF6600;
-    color: #fff;
-    right: 26%;
-    padding: .6rem 2.5rem .6rem .4rem;
-    margin-top: -.6rem;
-    /* width: 100px; */
-    border: 1px solid #FF6600;
-    border-radius: 30px;
-    cursor: pointer;
-    z-index: 1;
-  }
+.button-left:focus {
+  outline: none;
+}
+
+.button-left::before {
+  content: "Admin login";
+  position: relative;
+  background: #FF6600;
+  color: #fff;
+  right: 26%;
+  padding: .6rem 2.5rem .6rem .4rem;
+  margin-top: -.6rem;
+  /* width: 100px; */
+  border: 1px solid #FF6600;
+  border-radius: 30px;
+  cursor: pointer;
+  z-index: 1;
+}
 
 
 
@@ -88,7 +87,8 @@ a {
 }
 
 
-input[type="text"], input[type="password"] {
+input[type="text"],
+input[type="password"] {
   width: 350px;
   padding: .5rem 0rem 0.5rem 1rem;
   background: transparent;
@@ -111,6 +111,7 @@ input[type="submit"] {
   cursor: pointer;
   transition: background 0.3s ease-in-out;
 }
+
 input[type="submit"]:hover {
   background: silver;
   animation-name: shake;
@@ -123,6 +124,7 @@ input[type="submit"]:hover {
   text-align: center;
   font-weight: bold;
 }
+
 .switcher:hover {
   color: #6D7781;
 }
@@ -147,13 +149,24 @@ input[type="submit"]:hover {
 }
 
 @keyframes shake {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateX(0);
   }
-  10%, 30%, 50%, 70%, 90% {
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
     transform: translateX(-10px);
   }
-  20%, 40%, 60%, 80% {
+
+  20%,
+  40%,
+  60%,
+  80% {
     transform: translateX(10px);
   }
 }
@@ -171,48 +184,38 @@ input[type="submit"]:hover {
 /* start staff */
 
 .staff-button {
-  /* width: 300px; */
   margin: 2rem 0;
   padding-left: 1rem;
 }
-  .staff-button-left {
-      /* position: absolute; */
-      margin-left: 1rem;
-      /* margin-top: .3rem; */
-      padding: .6rem 3rem .75rem 1rem;
-      background: #D8D8D8;
-      color: #787878;  
-      /* width: 150px; */
-      border: 1px solid #D8D8D8;
-      border-radius: 30px;
-      z-index: 10;
-      cursor: pointer;
-      transition: all 1s ease;
-  }
 
-  .staff-button-left:focus {
-    outline: none;
-  }
+.staff-button-left {
+  margin-left: 1rem;
+  padding: .6rem 3rem .75rem 1rem;
+  background: #D8D8D8;
+  color: #787878;
+  border: 1px solid #D8D8D8;
+  border-radius: 30px;
+  z-index: 10;
+  cursor: pointer;
+  transition: all 1s ease;
+}
 
-  .staff-button-left::before{
-    content: "Staff login";
-    position: absolute;
-    background: #FF6600;
-    color: #fff;
-    right: 26%;
-    padding: .8rem 1rem .6rem 4rem;
-    margin-top: -.7rem;
-    margin-right: 1.5rem;
-    /* width: 150px; */
-    border: 1px solid #D8D8D8;
-    border-radius: 30px;
-    cursor: pointer;
-    z-index: 1;
-  }
+.staff-button-left:focus {
+  outline: none;
+}
 
-   .cartoon-background {
-        background: url("./images/cartoon.png");
-       position: absolute;
-        top: 40%;
-        width: 100%;
-     }
+.staff-button-left::before {
+  content: "Staff login";
+  position: absolute;
+  background: #FF6600;
+  color: #fff;
+  right: 26%;
+  padding: .8rem 1rem .6rem 4rem;
+  margin-top: -.7rem;
+  margin-right: 1.5rem;
+  /* width: 150px; */
+  border: 1px solid #D8D8D8;
+  border-radius: 30px;
+  cursor: pointer;
+  z-index: 1;
+}
