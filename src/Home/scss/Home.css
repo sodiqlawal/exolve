@@ -96,6 +96,7 @@
   .home .left-view .left-view-footer {
     background-color: #FF6600 !important;
     width: 100%;
+    position: absolute;
   }
   .home .right-view {
     width: 100%;
@@ -144,7 +145,6 @@
   position: absolute;
   z-index: -1;
   top: 50%;
-  width: 35%;
 }
 
 @media (max-width: 768px) {

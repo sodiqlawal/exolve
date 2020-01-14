@@ -170,6 +170,8 @@ input[type="submit"]:hover {
   .cont {
     position: absolute;
     top: 1%;
+    padding: 2rem 0rem 0rem .4rem;
+    justify-content: center;
   }
 }
 

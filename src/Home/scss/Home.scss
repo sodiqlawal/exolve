@@ -93,6 +93,7 @@
             .left-view-footer {
                 background-color: #FF6600 !important;
                 width: 100%;
+                position:  absolute;
             }
         }
 
@@ -147,7 +148,7 @@
     position: absolute;
     z-index: -1;
     top: 50%;
-    width: 35%;
+    // width: 35%;
 }
 
 
