@@ -184,7 +184,7 @@ input[type="submit"]:hover {
 
 .staff-button-left {
   margin-left: 1rem;
-  padding: .6rem 3rem .75rem 1rem;
+  padding: .7rem 6rem .75rem 1rem;
   background: #D8D8D8;
   color: #787878;
   border: 1px solid #D8D8D8;
@@ -201,12 +201,13 @@ input[type="submit"]:hover {
 .staff-button-left::before {
   content: "Staff login";
   position: absolute;
+  letter-spacing: .1rem;
   background: #FF6600;
   color: #fff;
   right: 26%;
-  padding: .8rem 1rem .6rem 4rem;
-  margin-top: -.7rem;
-  margin-right: 1.5rem;
+  padding: .8rem 2.5rem .6rem 1rem;
+  margin-top: -.75rem;
+  margin-right: 2rem;
   border: 1px solid #D8D8D8;
   border-radius: 30px;
   cursor: pointer;
