@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/exolve/static/css/main.e7eef05f.chunk.css",
+    "main.js": "/exolve/static/js/main.554e9d44.chunk.js",
+    "main.js.map": "/exolve/static/js/main.554e9d44.chunk.js.map",
+    "runtime-main.js": "/exolve/static/js/runtime-main.adce0cc5.js",
+    "runtime-main.js.map": "/exolve/static/js/runtime-main.adce0cc5.js.map",
+    "static/js/2.6479d9b6.chunk.js": "/exolve/static/js/2.6479d9b6.chunk.js",
+    "static/js/2.6479d9b6.chunk.js.map": "/exolve/static/js/2.6479d9b6.chunk.js.map",
+    "index.html": "/exolve/index.html",
+    "precache-manifest.2871f295853b4373d4ec8784f98e64b4.js": "/exolve/precache-manifest.2871f295853b4373d4ec8784f98e64b4.js",
+    "service-worker.js": "/exolve/service-worker.js",
+    "static/css/main.e7eef05f.chunk.css.map": "/exolve/static/css/main.e7eef05f.chunk.css.map",
+    "static/js/2.6479d9b6.chunk.js.LICENSE": "/exolve/static/js/2.6479d9b6.chunk.js.LICENSE",
+    "static/media/Home.css": "/exolve/static/media/cartoon.d70378a5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.adce0cc5.js",
+    "static/js/2.6479d9b6.chunk.js",
+    "static/css/main.e7eef05f.chunk.css",
+    "static/js/main.554e9d44.chunk.js"
+  ]
+}
